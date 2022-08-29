@@ -3,8 +3,8 @@ export default function initTabNav() {
     const tabContent = document.querySelectorAll("[data-tab='content'] section");
   
     if (tabMenu.length && tabContent.length) {
-      tabMenu[1].classList.add("active");
-      tabContent[1].classList.add("active");
+      tabMenu[0].classList.add("active");
+      tabContent[0].classList.add("active");
   
       function activeTab(index) {
         tabContent.forEach((content) => {
